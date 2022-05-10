@@ -55,5 +55,10 @@ public class RegionController {
 		return returnValue;
 	}
 
+	@GetMapping(path = "/test")
+	public String testApi() {
+		
+		return "CI/CD Working!"; 
+	}
 
 }
