@@ -16,7 +16,3 @@ npm install
 
 #start our node app in the background
 node app.js > app.out.log 2> app.err.log < /dev/null & 
-
-# cd /home/ec2-user/express-app/target
-# java -jar ePharmacy.jar
-# mvn spring-boot:run
